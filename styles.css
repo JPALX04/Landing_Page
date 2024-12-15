@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  color: #000000;
+  color: #ffffff;
   font-size: 16px;
   font-family: "roboto", sans-serif;
 }
@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   padding: 0 30px;
 }
-
+/* NAv BAR */
 .navbar {
   color: #fff;
   background-color: #1f2937;
@@ -41,7 +41,7 @@ ul {
   list-style: none;
   display: flex;
 }
-
+/* HERO TEXT AND IMAGE */
 .header {
   background-color: #1f2937;
   color: #e5e7eb;
@@ -52,6 +52,7 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%;
+  gap: 90px;
 }
 .hero-container h1 {
   font-size: 48px;
@@ -73,6 +74,10 @@ ul {
   margin-top: 20px;
 }
 
+/* SECTION WITH RANDOM INFO, QUOTE AND CALL ACTION */
+section {
+  flex: 1;
+}
 .random-info {
   height: 500px;
 }
@@ -89,6 +94,7 @@ ul {
   height: 100%;
 }
 .box-info {
+  color: #1f2937;
   width: 150px;
   text-align: center;
 }
@@ -120,4 +126,48 @@ ul {
   font-size: 26px;
   font-weight: 500;
   margin-right: 15px;
+}
+
+.call-action {
+  display: flex;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  height: 150px;
+  margin: 80px 0;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.call-action h2 {
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.call-action button {
+  background-color: transparent;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #fff;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  height: 100px;
+  color: #f9faf8;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+a:hover {
+  font-weight: bold;
+  color: #ffffff;
 }
